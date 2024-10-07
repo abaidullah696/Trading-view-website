@@ -1,6 +1,9 @@
 // src/app/layout.js
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+// src/app/layout.js (or _app.js for older Next.js versions)
+import "./globals.css";
+
 export default function Layout({ children }) {
   return (
     <html lang="en">

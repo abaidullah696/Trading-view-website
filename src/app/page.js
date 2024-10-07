@@ -2,7 +2,7 @@
 import Hero from "@/components/Hero";
 import Stocks from "@/components/Stocks";
 import Screener from "@/components/Screener";
-import Graphs from "@/components/Graph";
+import Graph from "@/components/Graph";
 
 const stocksData = [
   { name: "Apple", symbol: "AAPL", change: 2.5 },
@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <Stocks stocks={stocksData} />
       <Screener />
-      <Graphs />
+      <Graph />
     </>
   );
 }
